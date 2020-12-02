@@ -5,6 +5,7 @@ import {Draggable} from 'react-beautiful-dnd';
 function Item(props) {
 
   const {item} = props
+  console.log('item**',item)
   const StyledContainer = styled.div`
   margin: 20px;
   height: 25px;
